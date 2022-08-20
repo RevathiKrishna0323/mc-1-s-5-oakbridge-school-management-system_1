@@ -1,6 +1,7 @@
 package com.jap.marksevaluation;
 public class OakBridgeSchool {
 
+
     // Convert the given string name to upper case
     public String convertToUpperCase(String name){
        return null;
@@ -33,6 +34,8 @@ public class OakBridgeSchool {
     }
 
     public static void main(String[] args) {
+        String[] studentName = {};
+        String[] studentSurname = {};
         OakBridgeSchool oakBridgeSchool = new OakBridgeSchool();
         // Declare and Initialize values to the arrays
         String[] studentNames = null;
