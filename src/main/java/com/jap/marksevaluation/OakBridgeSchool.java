@@ -34,15 +34,18 @@ public class OakBridgeSchool {
     }
 
     public static void main(String[] args) {
-        String[] studentName = {};
-        String[] studentSurname = {};
+        String[] studentName = {"Michelle", "Kate", "Ann", "Tina", "Tom", "Sam", "Ria","Pam", "Kate", "Leo"};
+        String[] studentSurname = {"Smith", "Jhonson", "Williams", "Brown", "Jones", "Miller", "Davis", "Martin", "Clark", "King"};
         OakBridgeSchool oakBridgeSchool = new OakBridgeSchool();
         // Declare and Initialize values to the arrays
         String[] studentNames = null;
         String[] studentSurnames = null;
         // Call the method to convert all the student names to upper case and display results
-
+        //create a variable with class name to cal method
+        OakBridgeSchool oakBridgeSchool1 = new OakBridgeSchool();
+        String[] upper = OakBridgeSchool.convertToUpperCase(studentNames);
         // Call the method to sort names in alphabetical order and display results
+        String[]  sortedNames = OakBridgeSchool.
 
         // Call the method to find the shortest surname and display results
 
