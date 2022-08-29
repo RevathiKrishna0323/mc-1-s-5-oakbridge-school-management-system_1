@@ -118,4 +118,4 @@ public class OakBridgeSchool {
     public void displayStudentNames(String[] namesArray) {
         System.out.println(Arrays.toString(namesArray));
     }
-    }
+}
